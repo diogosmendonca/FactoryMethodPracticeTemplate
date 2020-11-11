@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.github.diogosmendonca.FactoryMethodTest" time="0.176" tests="2" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="13"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\09513592740\Documents\workspace\designpatterns\factoryMethod\FactoryMethodPracticeTemplate\target\test-classes;C:\Users\09513592740\Documents\workspace\designpatterns\factoryMethod\FactoryMethodPracticeTemplate\target\classes;C:\Users\09513592740\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.7.0\junit-jupiter-engine-5.7.0.jar;C:\Users\09513592740\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\09513592740\.m2\repository\org\junit\platform\junit-platform-engine\1.7.0\junit-platform-engine-1.7.0.jar;C:\Users\09513592740\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\09513592740\.m2\repository\org\junit\platform\junit-platform-commons\1.7.0\junit-platform-commons-1.7.0.jar;C:\Users\09513592740\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.7.0\junit-jupiter-api-5.7.0.jar;C:\Users\09513592740\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.7.0\junit-jupiter-params-5.7.0.jar;C:\Users\09513592740\.m2\repository\com\github\diogosmendonca\SCPL\0.1.5-alpha\SCPL-0.1.5-alpha.jar;C:\Users\09513592740\.m2\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar;C:\Users\09513592740\.m2\repository\org\apache\commons\commons-lang3\3.9\commons-lang3-3.9.jar;C:\Users\09513592740\.m2\repository\com\beust\jcommander\1.78\jcommander-1.78.jar;C:\Users\09513592740\.m2\repository\com\googlecode\juniversalchardet\juniversalchardet\1.0.3\juniversalchardet-1.0.3.jar;C:\Users\09513592740\.m2\repository\com\google\code\gson\gson\2.8.6\gson-2.8.6.jar;C:\Users\09513592740\.m2\repository\com\google\collections\google-collections\1.0\google-collections-1.0.jar;C:\Users\09513592740\.m2\repository\commons-lang\commons-lang\2.6\commons-lang-2.6.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="America/Sao_Paulo"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="java.vm.specification.version" value="13"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="BR"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-13.0.1\bin"/>
+    <property name="sun.java.command" value="C:\Users\095135~1\AppData\Local\Temp\surefire7802567923060627053\surefirebooter4242657819631365070.jar C:\Users\09513592740\AppData\Local\Temp\surefire7802567923060627053 2020-11-11T17-14-31_528-jvmRun1 surefire12291024085390389178tmp surefire_09006964065049291276tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\09513592740\Documents\workspace\designpatterns\factoryMethod\FactoryMethodPracticeTemplate\target\test-classes;C:\Users\09513592740\Documents\workspace\designpatterns\factoryMethod\FactoryMethodPracticeTemplate\target\classes;C:\Users\09513592740\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.7.0\junit-jupiter-engine-5.7.0.jar;C:\Users\09513592740\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\09513592740\.m2\repository\org\junit\platform\junit-platform-engine\1.7.0\junit-platform-engine-1.7.0.jar;C:\Users\09513592740\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\09513592740\.m2\repository\org\junit\platform\junit-platform-commons\1.7.0\junit-platform-commons-1.7.0.jar;C:\Users\09513592740\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.7.0\junit-jupiter-api-5.7.0.jar;C:\Users\09513592740\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.7.0\junit-jupiter-params-5.7.0.jar;C:\Users\09513592740\.m2\repository\com\github\diogosmendonca\SCPL\0.1.5-alpha\SCPL-0.1.5-alpha.jar;C:\Users\09513592740\.m2\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar;C:\Users\09513592740\.m2\repository\org\apache\commons\commons-lang3\3.9\commons-lang3-3.9.jar;C:\Users\09513592740\.m2\repository\com\beust\jcommander\1.78\jcommander-1.78.jar;C:\Users\09513592740\.m2\repository\com\googlecode\juniversalchardet\juniversalchardet\1.0.3\juniversalchardet-1.0.3.jar;C:\Users\09513592740\.m2\repository\com\google\code\gson\gson\2.8.6\gson-2.8.6.jar;C:\Users\09513592740\.m2\repository\com\google\collections\google-collections\1.0\google-collections-1.0.jar;C:\Users\09513592740\.m2\repository\commons-lang\commons-lang\2.6\commons-lang-2.6.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\09513592740"/>
+    <property name="user.language" value="pt"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2019-10-15"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-13.0.1"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\09513592740\Documents\workspace\designpatterns\factoryMethod\FactoryMethodPracticeTemplate"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\095135~1\AppData\Local\Temp\surefire7802567923060627053\surefirebooter4242657819631365070.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="13.0.1+9"/>
+    <property name="user.name" value="09513592740"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\09513592740\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\095135~1\AppData\Local\Temp\"/>
+    <property name="java.version" value="13.0.1"/>
+    <property name="user.dir" value="C:\Users\09513592740\Documents\workspace\designpatterns\factoryMethod\FactoryMethodPracticeTemplate"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="groups" value="executionTest"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-13.0.1\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Python38\Scripts\;C:\Python38\;C:\Python27\;C:\Python27\Scripts;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\Java\jdk-13.0.1\bin;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\Program Files\Git\cmd;C:\Program Files (x86)\Yarn\bin\;C:\ProgramData\chocolatey\lib\maven\apache-maven-3.6.3\bin;C:\tools\php74;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Program Files (x86)\Gpg4win\..\GnuPG\bin;C:\Users\09513592740\.windows-build-tools\python27\;C:\Users\09513592740\AppData\Local\Microsoft\WindowsApps;C:\Users\09513592740\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\09513592740\AppData\Roaming\npm;C:\Users\09513592740\AppData\Local\Yarn\bin;C:\Users\09513592740\AppData\Roaming\Python\Python38\site-packages;C:\Users\09513592740\AppData\Roaming\Python\Python38\site-packages\pytest;C:\Python38\Scripts;\Users\09513592740\Documents\geth-alltools-windows-amd64-1.9.12-b6f1c8dc;C:\Users\09513592740\.dotnet\tools;C:\Users\09513592740\Documents\sonar-scanner-4.4.0.2170-windows\bin;C:\Users\09513592740\Documents\sonar-scanner-msbuild-4.10.0.19059-netcoreapp3.0\sonar-scanner-4.4.0.2170\bin;;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="13.0.1+9"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="57.0"/>
+  </properties>
+  <testcase name="specificAppBCommandTest" classname="com.github.diogosmendonca.FactoryMethodTest" time="0.068"/>
+  <testcase name="specificAppATest" classname="com.github.diogosmendonca.FactoryMethodTest" time="0.013"/>
+</testsuite>
